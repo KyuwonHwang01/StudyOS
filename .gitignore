@@ -1,0 +1,37 @@
+# macOS and Xcode local state
+.DS_Store
+DerivedData/
+build/
+xcuserdata/
+*.xcuserstate
+*.xcresult
+*.dSYM/
+*.dSYM.zip
+*.ipa
+
+# Signing credentials and local configuration
+*.p12
+*.p8
+*.mobileprovision
+*.certSigningRequest
+*.key
+*.pem
+.env
+.env.*
+!.env.example
+
+# Local study databases and exported backups
+*.store
+*.store-wal
+*.store-shm
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3
+StudyOS-*.json
+!StudyOSTests/Fixtures/Legacy.store
+
+# Raw local validation evidence stays on this Mac
+/Verification/*
+!/Verification/README.md
+*.log
